@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": false,
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "module": "es6",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "noImplicitAny": false,
+    "outDir": "./public/src",
+    "skipLibCheck": true,
+    "strict": true,
+    "sourceMap": true,
+    "target": "es6",
+  },
+  "include": [
+    "src/*",
+    "public/index.html"
+  ],
+  "exclude": [
+      "node_modules"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "node_modules": true,
+        "build": true,
+        "**/*.js": { "when": "$(basename).ts"},
+        "**/*.js.map": true
+      },
+      "files.eol": "\n",
+}
